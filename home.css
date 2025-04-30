@@ -1,0 +1,98 @@
+body{
+    background-image:url("Assets/Backgrounds.jpeg");
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    background-color: #ff97d0;
+    height: 40px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #eee;
+}
+.scroll-button{
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+.scroll-button:hover{
+    transform: scale(1.05);
+}
+.navigation{
+    height: 40px;
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    margin-right: 20px;
+}
+.nav a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s;
+    text-decoration: none;
+}
+.nav a:hover {
+    background-color: #a9eefc;
+    transform: scale(1.05);
+}
+.nav i {
+    font-size: 18px;
+}
+.logoHeader{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 8%;
+}
+.logo img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.logo img:hover {
+    transform: scale(1.2);
+}
+.content{
+    flex-direction: column;
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.scroll-button {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 10px;
+    font-weight: bold;
+    background-color: #ff76e69f;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+.scroll-button:hover {
+    background-color: #b6efffdc;
+    transform: scale(1.05);
+}
